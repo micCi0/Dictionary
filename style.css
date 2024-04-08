@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-flow: wrap;
+    background: #3798d7;
+}
+
+#app {
+
+    background: #ffffff;
+    width: 370px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#app h1{
+    /* top.left,bottom */
+    margin: 14px 0 25px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+#app form {
+    text-align: center;
+}
+#app input{
+    margin: 0 0 15px;
+    padding: 10px 0;
+    width: 80%;
+    outline: none;
+    border: 1px solid #898989;
+    border-radius: 4px;
+    text-align: center;
+}
+#app input:focus{
+    padding: 9px 20px;
+    border: 2px solid #3798d7;
+}
+#app #text , #result p{
+    margin: 0 34px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    line-height: 20px;
+}
+#app #remove{
+    margin: 8px -30px;
+    position: relative;
+    left: -10px;
+    font-size: 19px;
+}
+#app #search{
+    position: relative;
+    right: -40px;
+    margin: 8px -30px;
+}
+#result{
+    margin: 10px 30px;
+}
+#result.hide{
+    margin: 10px 30px;
+}
+
+#result #audio{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 28px;
+    font-size: 21px;
+    cursor: pointer;
+}
+#result #meaning{
+    margin: 0 0 20px;
+}
+#result p{
+    margin: 1px;
+}
